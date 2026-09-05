@@ -1,0 +1,5 @@
+services:
+  app:
+    build: .
+    container_name: my-python-container
+    command: python app.py
